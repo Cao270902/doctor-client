@@ -1,0 +1,63 @@
+/* svg {
+  width: 20%;
+  margin: 0 auto;
+} */
+#hex-image {
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  transform: translate(0%, 0%);
+  width: 175px;
+  height: 175px;
+}
+#hex {
+  stroke-width: 0.5px;
+  stroke: #ffffff;
+  fill-opacity: 0.6;
+  transition: fill-opacity 0.8s;
+}
+#hex-1 {
+  /*   stroke-width:2;
+  stroke: red;
+  fill-opacity:0.6;
+  transition:fill-opacity .8s; */
+  transform: scale(0.9) translate(10px, 10px);
+}
+
+#hex-image2 {
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  transform: translate(0%, 0%);
+  width: 175px;
+  height: 175px;
+}
+#hex-2 {
+  stroke-width: 3px;
+  stroke: #07f9fe;
+  transform: scale(0.9) translate(10px, 10px);
+}
+
+#hex-image3 {
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  transform: translate(0%, 0%);
+  width: 175px;
+  height: 175px;
+}
+#hex3 {
+  stroke-width: 0.5px;
+  stroke: #ffffff;
+  fill-opacity: 0.6;
+  transition: fill-opacity 0.8s;
+}
+#hex-3 {
+  transform: scale(0.9) translate(10px, 10px);
+}
+
+#hex-image4 {
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  transform: translate(0%, 0%);
+  width: 175px;
+  height: 175px;
+}
+#hex-4 {
+  stroke-width: 3px;
+  stroke: #07f9fe;
+  transform: scale(0.9) translate(10px, 10px);
+}
